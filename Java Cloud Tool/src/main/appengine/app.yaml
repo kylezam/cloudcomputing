@@ -1,0 +1,4 @@
+service: default
+runtime: java11
+manual_scaling:
+  instances: 3

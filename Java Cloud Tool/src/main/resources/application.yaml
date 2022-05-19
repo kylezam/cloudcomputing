@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    gcp:
+      sql:
+        instance-connection-name: cloud-test-350616:europe-west6:database
+        database-name: logs
+  datasource:
+    username: root
+    password: PqRTs18!
+  jpa:
+    show-sql: false
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      ddl-auto: update
